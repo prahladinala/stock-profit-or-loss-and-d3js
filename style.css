@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  /* text-align: center; */
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container {
+  width: 250px;
+  min-height: 250px;
+  border: 1px solid #720570;
+}
+.bar {
+  fill: #720570;
+}
+input {
+  display: block;
+  padding: 10px;
+  font-size: large;
+  border-radius: 3px;
+  width: 50%;
+  margin-top: 5px;
+}
+button {
+  padding: 10px;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  background-color: #242b2e;
+  border-color: #242b2e;
+  color: #fff;
+  width: 52.1%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #758283;
+}
+
+#output-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  text-align: center;
+  font-weight: 600;
+}
+
+#svg-box {
+  width: 50%;
+  text-align: center !important;
+}
+
+@media (max-width: 600px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  input {
+    width: 95%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+  button {
+    width: 100%;
+  }
+  #output-box {
+    width: 100%;
+    text-align: center;
+  }
+  svg {
+    width: 100%;
+  }
+  #svg-box {
+    width: 100%;
+    text-align: center !important;
+  }
+}
